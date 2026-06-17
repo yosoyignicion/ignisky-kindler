@@ -284,7 +284,7 @@ premium_watcher() {
     echo ""
     echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
     echo -e "  ${BOLD}💎 Esta función está disponible en el pack premium${NC}"
-    echo -e "  ${BOLD}👉 https://gumroad.com/l/...  ·  Cupón: ${RED}IGNICION25${NC}"
+    echo -e "  ${BOLD}👉 https://ignaciodev.gumroad.com/l/ignisky-kindler-premium  ·  Cupón: ${RED}IGNICION25${NC}"
     echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 }
 
@@ -297,7 +297,7 @@ premium_shield() {
     echo ""
     echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
     echo -e "  ${BOLD}💎 Disponible en el pack premium${NC}"
-    echo -e "  ${BOLD}👉 https://gumroad.com/l/...  ·  Cupón: ${RED}IGNICION25${NC}"
+    echo -e "  ${BOLD}👉 https://ignaciodev.gumroad.com/l/ignisky-kindler-premium  ·  Cupón: ${RED}IGNICION25${NC}"
     echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 }
 
@@ -319,7 +319,7 @@ premium_inferno() {
     echo ""
     echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
     echo -e "  ${BOLD}💎 Compra el pack premium para desbloquearlos todos${NC}"
-    echo -e "  ${BOLD}👉 https://gumroad.com/l/...  ·  Cupón: ${RED}IGNICION25${NC}"
+    echo -e "  ${BOLD}👉 https://ignaciodev.gumroad.com/l/ignisky-kindler-premium  ·  Cupón: ${RED}IGNICION25${NC}"
     echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 }
 
@@ -332,7 +332,7 @@ premium_env_inject() {
     echo ""
     echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
     echo -e "  ${BOLD}💎 Disponible en el pack premium${NC}"
-    echo -e "  ${BOLD}👉 https://gumroad.com/l/...  ·  Cupón: ${RED}IGNICION25${NC}"
+    echo -e "  ${BOLD}👉 https://ignaciodev.gumroad.com/l/ignisky-kindler-premium  ·  Cupón: ${RED}IGNICION25${NC}"
     echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 }
 
@@ -483,7 +483,7 @@ interactive_premium() {
     echo -e "  ${GRAY}│${NC}  🔐  ${BOLD}kindler:inject${NC}   ${GRAY}· Env vars inyectadas automáticamente${NC}"
     echo ""
     echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-    echo -e "  ${BOLD}👉 https://gumroad.com/l/...${NC}"
+    echo -e "  ${BOLD}👉 https://ignaciodev.gumroad.com/l/ignisky-kindler-premium${NC}"
     echo -e "  ${BOLD}🏷️  Cupón: ${RED}IGNICION25${NC} ${GRAY}(25% OFF → 11.25€)${NC}"
     echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
     echo ""
@@ -688,7 +688,7 @@ for r in d['quick_wins']:
         echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
         echo -e "  ${BOLD}💎 ¿Prefieres que lo haga automáticamente?${NC}"
         echo -e "  ${BOLD}   kindler:inferno aplica todas las optimizaciones${NC}"
-        echo -e "  ${BOLD}   de una sola vez.👉 https://gumroad.com/l/...${NC}"
+        echo -e "  ${BOLD}   de una sola vez.👉 https://ignaciodev.gumroad.com/l/ignisky-kindler-premium${NC}"
         echo -e "  ${BOLD}   Cupón: ${RED}IGNICION25${NC} (25% OFF)"
         echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
     fi
@@ -874,7 +874,7 @@ for r in d['rules']:
     if [[ "$score" -lt 90 ]]; then
         echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
         echo -e "  ${BOLD}💎 El pack premium incluye optimizacion automatica${NC}"
-        echo -e "  ${BOLD}👉 https://gumroad.com/l/... · Cupon: ${RED}IGNICION25${NC}"
+        echo -e "  ${BOLD}👉 https://ignaciodev.gumroad.com/l/ignisky-kindler-premium · Cupon: ${RED}IGNICION25${NC}"
         echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
     fi
 }
@@ -924,7 +924,7 @@ usage() {
     echo -e "  ${SCRIPT_NAME} --suggest"
     echo ""
     echo -e "${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-    echo -e "${BOLD}💎 https://gumroad.com/l/...  ·  Cupón: ${RED}IGNICION25${NC}"
+    echo -e "${BOLD}💎 https://ignaciodev.gumroad.com/l/ignisky-kindler-premium  ·  Cupón: ${RED}IGNICION25${NC}"
     echo -e "${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
     exit 0
 }
