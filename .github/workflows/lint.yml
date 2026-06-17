@@ -2,20 +2,17 @@ name: Lint
 
 on:
   push:
-    branches: [main]
-    paths: ['src/**', 'demo.sh']
+    branches: [main, master]
   pull_request:
-    branches: [main]
-    paths: ['src/**', 'demo.sh']
+    branches: [main, master]
 
 jobs:
   shellcheck:
     name: ShellCheck
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Run ShellCheck
-        uses: ludeeus/action-shellcheck@master
-        with:
-          severity: warning
-          scandir: './src'
+        run: |
+          shellcheck --severity=style $(find . -name '*.sh' -not -path './.git/*')
+        shell: bash
